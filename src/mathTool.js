@@ -81,7 +81,7 @@ function operation(a, b, op) {
   }
 }
 
-export default FloatTool = {
+export default MathTool = {
   // 加减乘除的四个接口
   add(a, b) {
     return operation(a, b, 'add');

@@ -1,29 +1,28 @@
 <h2 align="center">JavaScript常用方法库</h2>
 
-#### 方法集
-
-##### Number
-数学浮点运算（+、-、*、/）
-- FloatTool
-
-数字金额格式
-- Numeral
-
-##### Object
-对象属性值Trim
-- TrimObject
-
-#### 使用方法
-
-npm安装依赖
+#### npm安装依赖
 
 > npm install sky-js-library
 
-本地引入使用
+项目引入
 
 ```js
-import { FloatTool } from 'sky-js-library';
-
-FloatTool.add(2, 5);      // 7
-FloatTool.subtract(5, 3); // 2
+import { MathTool } from 'sky-js-library';
 ```
+
+#### 方法集
+
+数学浮点运算（+、-、*、/）
+- MathTool
+
+金钱数值处理(小写转换大写、数字转金钱格式)
+- Numeral
+
+对象属性值Trim
+- TrimObject
+
+中文字符排序
+- SortChinese
+
+身份证信息解析
+- IdCardInfo

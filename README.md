@@ -16,7 +16,7 @@ import { MathTool } from 'sky-js-library';
 - MathTool
 
 金钱数值处理(小写转换大写、数字转金钱格式)
-- Numeral
+- Money
 
 对象属性值Trim
 - TrimObject

@@ -2,8 +2,16 @@
 
 #### 方法集
 
+##### Number
 数学浮点运算（+、-、*、/）
 - FloatTool
+
+数字金额格式
+- Numeral
+
+##### Object
+对象属性值Trim
+- TrimObject
 
 #### 使用方法
 

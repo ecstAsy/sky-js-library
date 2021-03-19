@@ -81,7 +81,7 @@ function operation(a, b, op) {
   }
 }
 
-export default MathTool = {
+const MathTool = {
   // 加减乘除的四个接口
   add(a, b) {
     return operation(a, b, 'add');
@@ -96,3 +96,5 @@ export default MathTool = {
     return operation(a, b, 'divide');
   },
 }
+
+export default MathTool

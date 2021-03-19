@@ -1,5 +1,5 @@
 // 根据身份证解析用户信息
-export default IdCardInfo = ID => {
+const IdCardInfo = ID => {
   // 18位身份证 生日、性别、年龄验证
   const Provinces = {
     11: '北京',
@@ -45,3 +45,5 @@ export default IdCardInfo = ID => {
     province: Provinces[ID.substring(0, 2)]
   };
 }
+
+export default IdCardInfo

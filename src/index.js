@@ -8,16 +8,7 @@ import TrimObject from './object/trimObject';
 import SortChinese from './string/sortChinese';
 import IdCardInfo from './string/idCardInfo';
 
-const FNC = {
-  MathTool,
-  Money,
-  TrimObject,
-  SortChinese,
-  IdCardInfo
-}
-
-export {
-  FNC as default,
+export default {
   MathTool,
   Money,
   TrimObject,

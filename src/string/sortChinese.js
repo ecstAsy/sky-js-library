@@ -1,5 +1,5 @@
 // 中文字符排序
-export default SortChinese = (arr, dataLeven) => {
+const SortChinese = (arr, dataLeven) => {
   /* 获取数组元素内需要比较的值 */
   function getValue(option) {
     if (!dataLeven) return option;
@@ -12,3 +12,5 @@ export default SortChinese = (arr, dataLeven) => {
   }
   arr.sort((item1, item2) => getValue(item1).localeCompare(getValue(item2), 'zh-CN'));
 }
+
+export default SortChinese

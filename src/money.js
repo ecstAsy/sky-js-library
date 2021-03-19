@@ -88,7 +88,9 @@ const numeral = num => num
     .replace(/\B(?=(\d{3})+(?!\d))/g, ',')
   : '0.00';
 
-export default Money = {
+const Money = {
   uppercase,
   numeral
 }
+
+export default Money

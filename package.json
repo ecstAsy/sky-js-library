@@ -1,6 +1,6 @@
 {
   "name": "sky-js-library",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "this is esctAsy javascrpt public function",
   "main": "dist/index.js",
   "repository": "https://github.com/ecstAsy/sky-js-library",

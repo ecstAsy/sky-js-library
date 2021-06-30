@@ -84,6 +84,7 @@ const ID = '411222198409237032'
 IdCardInfo(ID);
 // { birthday: '19840923', age: 35, gender: '男', province: '河南' }
 ```
+<<<<<<< HEAD
 
 类型判断
 - Type
@@ -105,3 +106,5 @@ isType(person, 'Object')
 isObject(person)
 // true
 ```
+=======
+>>>>>>> ee4d2def0ece7b3c3e4027614d1bbe73f2a47ab9

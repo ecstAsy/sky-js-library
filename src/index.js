@@ -8,14 +8,18 @@ import TrimObject from './object/trimObject';
 import SortChinese from './string/sortChinese';
 import IdCardInfo from './string/idCardInfo';
 
+<<<<<<< HEAD
 // 数据类型
 import { Type, isType, isArray, isObject, isString, isFunc, isNumber } from './Type'
 
+=======
+>>>>>>> ee4d2def0ece7b3c3e4027614d1bbe73f2a47ab9
 export default {
   MathTool,
   Money,
   TrimObject,
   SortChinese,
+<<<<<<< HEAD
   IdCardInfo,
 
   Type,
@@ -25,4 +29,7 @@ export default {
   isString,
   isFunc,
   isNumber
+=======
+  IdCardInfo
+>>>>>>> ee4d2def0ece7b3c3e4027614d1bbe73f2a47ab9
 }

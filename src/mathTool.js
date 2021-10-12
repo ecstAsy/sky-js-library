@@ -12,7 +12,10 @@ function isInteger(obj) {
  *   {times:100, num: 314}
  */
 function toInteger(floatNum) {
-  var ret = { times: 1, num: 0 };
+  var ret = {
+    times: 1,
+    num: 0
+  };
   if (isInteger(floatNum)) {
     ret.num = floatNum;
     return ret;

@@ -9,7 +9,15 @@ import SortChinese from './string/sortChinese';
 import IdCardInfo from './string/idCardInfo';
 
 // 数据类型
-import { Type, isType, isArray, isObject, isString, isFunc, isNumber } from './Type'
+import {
+  Type,
+  isType,
+  isArray,
+  isObject,
+  isString,
+  isFunc,
+  isNumber
+} from './Type'
 
 export default {
   MathTool,
@@ -24,5 +32,5 @@ export default {
   isObject,
   isString,
   isFunc,
-  isNumberef0ece7b3c3e4027614d1bbe73f2a47ab9
+  isNumber
 }

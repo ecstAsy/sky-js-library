@@ -1,5 +1,5 @@
 /**
- * 
+ * 类型判断
  * @arg {* 数据}  
  * @returns @string
  */
